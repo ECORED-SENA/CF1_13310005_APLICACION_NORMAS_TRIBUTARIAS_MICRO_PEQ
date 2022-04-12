@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Normativa
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
           figure
@@ -119,7 +119,7 @@
       .col-lg-10
         .row.align-items-center.mb-5
           .col-auto
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
           .col
             h3 Sociedades de personas
@@ -136,7 +136,7 @@
                 p.txt-deco2 #[b Sociedad en comandita simple:] la cual es caracterizada porque la ley no les exige un límite de socios, ni una cantidad de capital. La dirección de esta sociedad es desempeñada por los socios gestores y las tareas de inspección y vigilancia por los comanditarios.
                 p.txt-deco2 #[b Sociedad en comandita por acciones:] distribuye su capital en acciones y no en cuotas de interés social, esta sociedad no puede ser creada si hay menos de 5 socios.
                 p.txt-deco2 El artículo 345 del Código de Comercio establece que al constituir una empresa se debe registrar al menos el 50% del capital social de la empresa y aportar al menos un tercio del capital social, las mismas reglas se aplican a la empresa.
-              .tarjeta.color-acento-botones.p-4(titulo="Sociedad de responsabilidad limitada")
+              .tarjeta.color-acento-botones.p-4(titulo="Sociedad de responsabilidad<br>limitada")
                 p.txt-deco2 Una sociedad de responsabilidad limitada es una sociedad que se caracteriza por ser una sociedad de personas, y como su nombre lo indica, la responsabilidad de los miembros se limita al alcance de sus aportaciones, por lo que no responden colectiva e individualmente a su patrimonio.
                 p.txt-deco2 Esta sociedad está regulada por el código de comercio desde el artículo 353 hasta el artículo 372, esta sociedad también se caracteriza porque va acompañada de la sigla “Ltda.” Ya que esta si no aparece en los estatutos la responsabilidad de los socios deja de ser limitada a solidaria e ilimitada.
               .tarjeta.color-acento-botones.p-4(titulo="Empresa unipersonal")
@@ -144,7 +144,7 @@
                 p.txt-deco2 Una empresa unipersonal es aquella que forma una persona jurídica distinta al dueño, de manera que el patrimonio de la empresa queda separado del patrimonio de su dueño, lo que no sucede con un establecimiento de comercio común y corriente.
         .row.align-items-center.mb-5
           .col-auto
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img9.svg', style="width: 100px").m-auto
           .col
             h3 Sociedades de capital
@@ -156,10 +156,10 @@
                 p.txt-deco2 Una sociedad anónima se caracteriza por ser abierta, como una sociedad de capital, en esencia, permite que sus acciones se negocien en la bolsa.
                 p.txt-deco2 La razón social de esta de esta sociedad es la sigla “S.A” y está regulada por el código de comercio en el artículo 373.
                 p.txt-deco2 En esta sociedad de capital se divide en acciones de igual valor, que pueden cotizar en la bolsa de valores con notas limitadas de los socios generales, la cantidad de capital que aportan a la empresa.
-              .tarjeta.color-acento-botones.p-4(titulo="Sociedad en comandita por acciones")
+              .tarjeta.color-acento-botones.p-4(titulo="Sociedad en comandita<br>por acciones")
                 p.txt-deco2 La sociedad en comandita se caracteriza por tener dos tipos de socios generales para el cumplimiento: uno de los socios hace un compromiso general donde no hay límite, y el otro hasta que alcance su nivel de contribución.
                 p.txt-deco2 En la sociedad en comandita hay un grupo de miembros para administrar y otro grupo de miembros para aportar capital sin incurrir en responsabilidad más allá de su contribución.
-              .tarjeta.color-acento-botones.p-4(titulo="Sociedad por acciones simplificada")
+              .tarjeta.color-acento-botones.p-4(titulo="Sociedad por acciones<br>simplificada")
                 p.txt-deco2 Esta es una sociedad de capital, su naturaleza es comercial y se forma por una o varias personas ya sean naturales o jurídicas. Una característica de la sociedad por acciones simplificada es que su constitución, como su nombre indica, se simplifica en la medida en que puede ser creada por contrato privado, a menos que su constitución disponga que los bienes deben estar sujetos a “escritura pública, en cuyo caso deben ser formado por escritura pública ".
                 p.txt-deco2 “La Sociedad por acciones simplificada podrá constituirse por una o varias personas naturales o jurídicas, quienes sólo serán responsables hasta el monto de sus respectivos aportes”.
               .tarjeta.color-acento-botones.p-4(titulo="Sociedades de economía mixta")

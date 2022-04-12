@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptualización
     p.mb-5 Para comprender el funcionamiento y constitución de las PYME en Colombia es importante comprender algunos términos fundamentales para entender la importancia de la participación de este sector empresarial en la economía de nuestro país.
-    #t_1_1
+    #t_1_1.pt-5
     .titulo-segundo.color-secundario
       h2 1.1. Clasificación de las micro y pequeñas empresas
     p Es importante mencionar que el Gobierno Nacional expidió el Decreto 957 de 2019, mediante el cual establece una nueva clasificación del tamaño empresarial basada en el criterio único de ingresos por actividades ordinarias.
@@ -26,7 +26,7 @@
       .col-lg-5.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-seterciario(@mouseover="indicadorTarjetaFlip = true")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso//tema1/img2.png')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}")
             .tarjeta-flip__contenido.bg-color2.p-4.p-xl-5
               h1 Pequeñas empresas
               p  (11) y (50) trabajadores
@@ -55,7 +55,7 @@
               .col
                 p.mb-0 La capacidad de cubrir los mercados locales, regionales y nacionales, con las comodidades que brinda Internet, ya que este puede cruzar fronteras con sus productos.
           .col-lg-7
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img3.png', style="width: 500px").m-auto
     .separador.mb-5
     #t_1_2
@@ -63,7 +63,7 @@
       h2 1.2. Constitución y legalización de empresas en Colombia
     .row.align-items-center
       .col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img4.png', style="width: 450px").m-auto
       .col-lg-8
         p.mb-4 En Colombia la constitución y registro de empresas es un proceso que requiere de mucha atención y regulación, lo cual permite determinar la aprobación de las actividades económicas ante las distintas entidades nacionales.
