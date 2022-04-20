@@ -14,7 +14,7 @@
             img(src='@/assets/curso/tema2/img1.svg', style="width: 200px").m-auto
         .col-lg-9
           .bloque-texto-a__texto.p-4
-            p El cumplimiento de las leyes requeridas para crear una empresa se debe considerar como primera instancia. Al respecto, la Constitución Política de Colombia al amparo del Título XII del régimen económico y Hacienda pública EL Artículo 333 establece “La empresa, como base del desarrollo, tiene una función social que implica obligaciones”. Las siguientes son unas de las leyes importantes en las empresas:
+            p El cumplimiento de las leyes requeridas para crear una empresa se debe considerar como primera instancia. Al respecto, la Constitución Política de Colombia al amparo del Título XII del régimen económico y Hacienda pública el Artículo 333 establece “La empresa, como base del desarrollo, tiene una función social que implica obligaciones”. Las siguientes son unas de las leyes importantes en las empresas:
     .row
       .col-1
       .col-lg-5.bg-color4
