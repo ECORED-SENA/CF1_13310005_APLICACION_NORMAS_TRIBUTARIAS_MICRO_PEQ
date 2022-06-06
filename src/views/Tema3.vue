@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Marco tributario para la Pyme
@@ -15,7 +15,7 @@
     p.mb-5 #[b A continuación, se mencionan algunos deberes y obligaciones formales, donde cada obligación depende del tamaño de la empresa:]
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img1.png', style="width: 350px").m-auto
       .col-lg-8
         .tarjeta.tarjeta--azul.p-5

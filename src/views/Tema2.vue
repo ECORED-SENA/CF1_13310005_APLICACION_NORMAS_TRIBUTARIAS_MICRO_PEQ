@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Normativa
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
           figure
@@ -20,7 +20,7 @@
       .col-lg-5.bg-color4
         h3.text-center.txt-deco1.mt-5 Leyes requeridas para empresas
       .col-12
-        LineaTiempoE.color-acento-contenido.my-5
+        LineaTiempoE.color-acento-contenido.my-5(data-aos="fade-right")
           .row(titulo="Ley Mipyme" subtitulo="")
             .col-9
               .row.align-items-start
@@ -66,11 +66,12 @@
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=345" target="_blank" type="application/pdf")
                     span Enlace de consulta
                     i.fas.fa-angle-right
-    #t_2_1.mt-5
+    Separador
+    #t_2_1
     .titulo-segundo.color-secundario
       h2 2.1 Normatividad vigente
     p.mb-5 A diferencia de las leyes anteriormente mencionadas, las siguientes leyes, decretos, resoluciones y decisiones son la normatividad vigente aplicada a las micro, pequeñas y medianas empresas:
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-8.mt-5.bg-color5
         .px-3.pb-5
           figure.img-position1
@@ -92,15 +93,15 @@
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
                 span Decisiones
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
-    separador
-    #t_2_2.mt-5
+    Separador
+    #t_2_2
     .titulo-segundo.color-secundario
       h2 2.2 Requisitos tributarios
     p.mb-5 Iniciar un negocio en Colombia requiere de una amplia gama de requisitos comerciales, sociales, financieros y operativos, a continuación, se mostrarán con detalles los requisitos tributarios que deben cumplirse para iniciar y mantener una organización.
     .row.justify-content-center
       .col-lg-8
         p.text-center.mb-5 A continuación, encontrará cuáles son los requisitos tributarios que se deben cumplir y ante qué entidad debe gestionarse y su periodicidad de cumplimiento.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-8.mt-5.bg-color6
         .px-3.pb-5
           figure.img-position1
@@ -110,14 +111,14 @@
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
-    separador
-    #t_2_3.mt-5
+    Separador
+    #t_2_3
     .titulo-segundo.color-secundario
       h2 2.3 Tipos de sociedades
     p.mb-5 En Colombia las sociedades se clasifican según la forma de asociación:
     .row.justify-content-center
       .col-lg-10
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-5(data-aos="fade-left")
           .col-auto
             figure
               img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
@@ -142,7 +143,7 @@
               .tarjeta.color-acento-botones.p-4(titulo="Empresa unipersonal")
                 p.txt-deco2 Como su nombre lo indica, se trata de una empresa conformada por una única persona y única dueña de la empresa.
                 p.txt-deco2 Una empresa unipersonal es aquella que forma una persona jurídica distinta al dueño, de manera que el patrimonio de la empresa queda separado del patrimonio de su dueño, lo que no sucede con un establecimiento de comercio común y corriente.
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-5(data-aos="fade-left")
           .col-auto
             figure
               img(src='@/assets/curso/tema2/img9.svg', style="width: 100px").m-auto

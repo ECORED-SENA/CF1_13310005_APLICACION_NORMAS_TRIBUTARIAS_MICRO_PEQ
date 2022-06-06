@@ -3,17 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptualización
-    p.mb-5 Para comprender el funcionamiento y constitución de las PYME en Colombia es importante comprender algunos términos fundamentales para entender la importancia de la participación de este sector empresarial en la economía de nuestro país.
+    p Para comprender el funcionamiento y constitución de las PYME en Colombia es importante comprender algunos términos fundamentales para entender la importancia de la participación de este sector empresarial en la economía de nuestro país.
+    Separador
     #t_1_1
     .titulo-segundo.color-secundario
       h2 1.1. Clasificación de las micro y pequeñas empresas
     p Es importante mencionar que el Gobierno Nacional expidió el Decreto 957 de 2019, mediante el cual establece una nueva clasificación del tamaño empresarial basada en el criterio único de ingresos por actividades ordinarias.
     p.mb-5 #[b A continuación, se presenta una conceptualización de la clasificación de empresas determinada para nuestro país.]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-5.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = true")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -31,7 +32,7 @@
               h1 Pequeñas empresas
               p  (11) y (50) trabajadores
               p Son aquellas empresas que poseen entre  (11) y (50) trabajadores. Son entidades independientes, creadas con fines de lucro, cuyo objetivo es dedicarse íntegramente a la producción, procesamiento y/o prestación de servicios para satisfacer las necesidades y deseos actuales de la comunidad. Muchas pequeñas empresas, iniciaron como microempresa y fueron creciendo a través del tiempo, es más muchas medianas y grandes empresas, fueron pequeñas empresas en Colombia.
-    .row.bg-color3.mb-5
+    .row.bg-color3
       .col-12.px-5.pt-5
         .row.align-items-center
           .col-lg-5
@@ -55,15 +56,15 @@
               .col
                 p.mb-0 La capacidad de cubrir los mercados locales, regionales y nacionales, con las comodidades que brinda Internet, ya que este puede cruzar fronteras con sus productos.
           .col-lg-7
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img3.png', style="width: 500px").m-auto
-    .separador.mb-5
+    Separador
     #t_1_2
     .titulo-segundo.color-secundario
       h2 1.2. Constitución y legalización de empresas en Colombia
     .row.align-items-center
       .col-lg-4
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img4.png', style="width: 450px").m-auto
       .col-lg-8
         p.mb-4 En Colombia la constitución y registro de empresas es un proceso que requiere de mucha atención y regulación, lo cual permite determinar la aprobación de las actividades económicas ante las distintas entidades nacionales.
@@ -169,13 +170,13 @@
                   .row.align-items-center.mb-2
                     .col-auto
                         figure
-                        img(src='@/assets/curso/tema1/img19.svg', style="width: 30px").m-auto
+                        img(src='@/assets/curso/tema1/img20.svg', style="width: 30px").m-auto
                     .col
                       p.mb-0 Obtener certificados de bomberos.
                   .row.align-items-center.mb-2
                     .col-auto
                         figure
-                        img(src='@/assets/curso/tema1/img20.svg', style="width: 30px").m-auto
+                        img(src='@/assets/curso/tema1/img19.svg', style="width: 30px").m-auto
                     .col
                       p.mb-0 Notificar de la apertura del establecimiento comercial a planeación distrital sy/o municipal.
   
