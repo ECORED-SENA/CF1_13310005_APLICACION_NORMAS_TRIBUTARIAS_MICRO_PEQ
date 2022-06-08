@@ -100,7 +100,7 @@
             p Existe la posibilidad de haber obligaciones accesorias que no tiene mucho que ver con los pagos de los tributos.
             p Las personas naturales y jurídicas pueden declarar el inicio de sus labores y obtener el RUT, identificándose a los servicios y/o actividades económicas que vaya a ofrecer.
             p #[i Para mayor información, puede consultar el siguiente enlace:]
-            a.mb-5.boton.color-acento-contenido.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=254" target="_blank" type="application/pdf")
+            a.mb-5.boton.color-acento-contenido.texto-blanco(href="https://www.dian.gov.co/impuestos/personas/Paginas/rut.aspx" target="_blank" type="application/pdf")
               span Más información
               i.fas.fa-link(style="color: #EF9F14 !important")
           .col-8.col-lg-5
@@ -126,7 +126,7 @@
             h3.mt-5 Declaración Anual de Impuesto a la Renta:
             p Este impuesto se calcula cuando la suma de los ingresos de una persona o empresa produce incremento en su patrimonio a lo largo de un año. Hay un límite en Colombia donde no es necesario declarar renta, sobrepasado este límite es de total obligación pagar este tributo.
             p #[i A continuación, se relaciona el enlace para consultar quienes deben pagar renta según la DIAN:]
-            a.mb-5.boton.color-acento-contenido.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=254" target="_blank" type="application/pdf")
+            a.mb-5.boton.color-acento-contenido.texto-blanco(href="https://www.dian.gov.co/impuestos/reformatributaria/impuestoalariqueza/Paginas/quienesdebendeclarar.aspx" target="_blank" type="application/pdf")
               span Más información
               i.fas.fa-link(style="color: #EF9F14 !important")
           .col-8.col-lg-5
@@ -137,7 +137,7 @@
             h3.mt-5 Retención en la fuente:
             p Es un impuesto anticipado del impuesto de la renta. Cuando se dice anticipado quiere decir que se debe descontar y/o pagar en la vigencia anterior (año fiscal anterior).
             p #[i Para mayor información sobre retención en la fuente, es importante consultar el siguiente enlace:]
-            a.mb-5.boton.color-acento-contenido.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=254" target="_blank" type="application/pdf")
+            a.mb-5.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Distorsiones_en_el_impuesto_sobre_la_renta_causadas_por_la_retencion_en_la_fuente.pdf')" target="_blank" type="application/pdf")
               span Más información
               i.fas.fa-link(style="color: #EF9F14 !important")
           .col-8.col-lg-5

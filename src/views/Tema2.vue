@@ -78,19 +78,19 @@
             img(src='@/assets/curso/tema2/img6.svg', style="width: 350px").m-auto
           .row.justify-content-center
             .col-auto.mb-4.mb-lg-0
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/leyes.pdf')" target="_blank" type="application/pdf")
                 span Leyes
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
             .col-auto.mb-4.mb-lg-0
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/resoluciones.pdf')" target="_blank" type="application/pdf")
                 span Resoluciones
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
             .col-auto.mb-4.mb-lg-0
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/decretos.pdf')" target="_blank" type="application/pdf")
                 span Decretos
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
             .col-auto.mb-4.mb-lg-0
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/desiciones.pdf')" target="_blank" type="application/pdf")
                 span Decisiones
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
     Separador
@@ -108,7 +108,7 @@
             img(src='@/assets/curso/tema2/img7.svg', style="width: 350px").m-auto
           .row.justify-content-center
             .col-auto.mb-4.mb-lg-0
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/aspectos.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download(style="color: #EF9F14 !important")
     Separador
