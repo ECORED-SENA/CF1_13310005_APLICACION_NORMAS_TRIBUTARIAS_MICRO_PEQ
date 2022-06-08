@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1239" height="476" viewBox="0 0 1239 476">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_44539" data-name="Rectángulo 44539" width="1239" height="476" rx="20" fill="#d9e9f4"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_44541" data-name="Rectángulo 44541" width="1239" height="476" rx="20" fill="#ef9f14"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.044" y1="0.022" x2="0.45" y2="0.483" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#104469"/>
+      <stop offset="1" stop-color="#edf8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.044" y1="0.022" x2="0.45" y2="0.483" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0bf69"/>
+      <stop offset="1" stop-color="#edf8ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_146084" data-name="Grupo 146084" transform="translate(-134.333 -111)">
+    <rect id="Rectángulo_44244" data-name="Rectángulo 44244" width="1239" height="476" rx="20" transform="translate(134.333 111)" fill="#d9e9f4"/>
+    <g id="Enmascarar_grupo_143950" data-name="Enmascarar grupo 143950" transform="translate(134.333 111)" clip-path="url(#clip-path-3)">
+      <path id="Trazado_194129" data-name="Trazado 194129" d="M473.073,0C734.344,0,946.145,153.178,946.145,342.133s-211.8,342.133-473.073,342.133S0,531.088,0,342.133,211.8,0,473.073,0Z" transform="translate(-146.427 -110.759)" fill="#edf8ff"/>
+    </g>
+    <rect id="Rectángulo_44547" data-name="Rectángulo 44547" width="46" height="4" transform="translate(1327.333 153)" fill="#ef9f14"/>
+    <rect id="Rectángulo_44548" data-name="Rectángulo 44548" width="100" height="3" transform="translate(1273.333 163)" fill="#104469"/>
+    <rect id="Rectángulo_44549" data-name="Rectángulo 44549" width="297" height="293" rx="20" transform="translate(134.333 111)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_44550" data-name="Rectángulo 44550" width="297" height="293" rx="20" transform="translate(1373.333 587) rotate(180)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
